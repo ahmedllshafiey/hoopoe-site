@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
+
+header {
+    height: 700px;
+    background-color: aqua;
+    overflow: hidden;
+    background-image: url(../images/hoopoe_bg_final.jpg);
+}
+
+.box{
+    max-width: 800px;
+}
+
+
+.title{
+    margin-top: 150px;
+    margin-left: 100px;
+    color: #FEBA41 ;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 5rem;
+}
+
+.text{
+    margin-left: 100px;
+    color: white ;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 60px;
+}
+
+.paragrahp{
+    margin-left: 100px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+    .title{
+        font-size: 60px;
+        margin-left: 60px;
+    }
+    .text{
+        font-size: 40px;
+        margin-left: 60px;
+    }
+    .paragrahp{
+        font-size: 12px;
+        margin-left: 60px;
+    }
+}

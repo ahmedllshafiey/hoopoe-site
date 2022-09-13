@@ -1,0 +1,14 @@
+.card-holder{
+    background-color: rgb(9, 121, 248);
+    padding: 50px;
+}
+
+.tales {
+    width: 100%;
+  }
+.carousel-inner{
+    margin-left: 25%;
+    border-radius: 10px;
+    width:50%;
+    max-height: 900px !important;
+}
