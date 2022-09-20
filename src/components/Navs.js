@@ -9,7 +9,7 @@ function Navs() {
     <Navbar expand="lg" className='nav-bar'>
       <Container>
         <Navbar.Brand href="#home" className='logo-container'>
-            <img className='logo' src={logo} />
+            <img className='logo' alt='logo' src={logo} />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

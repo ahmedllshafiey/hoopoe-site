@@ -4,8 +4,6 @@ import Carousel from 'react-bootstrap/Carousel';
 import '../styles/cards.css';
 import hoopoe1 from '../images/Eurasian Hoopoe.jpg';
 import hoopoe2 from '../images/African Hoopoe.jpg';
-import hoopoe3 from '../images/Green Wood Hoopoe.jpg';
-import hoopoe4 from '../images/Madagascar Hoopoe.jpg';
 
 
 function Type() {
@@ -25,8 +23,6 @@ function Type() {
             alt="First slide"
             />
             <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
             </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -37,8 +33,6 @@ function Type() {
             />
 
             <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </Carousel.Caption>
         </Carousel.Item>
         </Carousel>
